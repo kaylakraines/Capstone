@@ -1,0 +1,18 @@
+import java.util.Arrays;
+
+public class parseDriveCommand{
+     public static void main(String []args){
+        String string = "Straight,Forward,27,36,-2";
+        
+        String[] values = string.split(",");
+        String turn = values[0];
+        String direction = values[1];
+        String speed = values[2];
+
+        System.out.println(turn);
+        System.out.println(direction);
+        System.out.println(speed);
+
+    }
+}
+
